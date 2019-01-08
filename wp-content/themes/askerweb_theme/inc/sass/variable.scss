@@ -1,0 +1,27 @@
+
+$inludePath: "/wp-content/themes/askerweb_theme/inc/";
+
+@mixin transition($duration:0.5s)  {
+  -o-transition: all $duration;
+  -moz-transition: all $duration;
+  -webkit-transition: all $duration;
+  transition: all $duration;
+}
+
+::-webkit-input-placeholder {color:#717177;}
+::-moz-placeholder          {color:#717177;}/* Firefox 19+ */
+:-moz-placeholder           {color:#717177;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#717177;}
+
+@font-face {
+  font-family: 'icons';
+  src: url('#{$inludePath}/fonts/icons.eot');
+  src: url('#{$inludePath}/fonts/icons.eot?#iefix') format('embedded-opentype'),
+  url('#{$inludePath}/fonts/icons.woff') format('woff'),
+  url('#{$inludePath}/fonts/icons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+

@@ -1,0 +1,1 @@
+# Купол - зщита от прослушки. [![Build Status](https://travis-ci.com/askerweb/kupol.svg?token=apCJCL3uz4MxH8tqvxST&branch=master)](https://travis-ci.com/askerweb/kupol)

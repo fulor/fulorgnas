@@ -1,0 +1,123 @@
+@import 'variable.scss';
+
+.modal-wrapper.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-wrapper.open .modal-block {
+  top: 10%;
+}
+
+.modal-wrapper {
+  background: rgba(0, 0, 0, 0.51);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+  z-index: 120000;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#popup__form {
+  position: absolute;
+  left: 50%;
+  margin-top: 170px;
+  margin-left: -157.5px;
+  width: 315px;
+  height: 190px;
+  text-align: center;
+  color: #373842;
+  z-index: 9999999;
+  .modal-form {
+    padding-top: 30px;
+    input {
+      width: 250px;
+      background-color: transparent;
+      border: 1px solid #bababa;
+      padding: 6px 10px 6px 15px;
+      font-size: 14px;
+      display: block;
+      margin: 0 auto 15px;
+      color: #717177;
+      font-style: italic;
+    }
+    .submit {
+      width: 200px;
+      margin: 0 auto;
+      border: 1px solid white;
+      padding: 12px 0;
+      background-color: #d75920;
+      color: white;
+      text-align: center;
+      font-size: 16px;
+      @include transition();
+      &:hover {
+        cursor: pointer;
+        transform: scale(0.95);
+      }
+    }
+  }
+}
+
+#thank {
+  position: fixed;
+  left: 50%;
+  margin-top: 170px;
+  margin-left: -157.5px;
+  z-index: 3;
+  width: 315px;
+  color: #fff;
+  text-align: center;
+  height: 123px;
+  border: 1px solid #fff;
+  background-color: #d75920;
+  .block-messages {
+    font-size: 14px;
+    font-style: italic;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+.modal-block {
+  visibility: hidden;
+  position: relative;
+  margin: 5% auto;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  box-sizing: border-box;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  top: -500px;
+}
+
+.close__modal {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 4;
+  font-size: 19px;
+  @include icon(close);
+  @include transition();
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.close-modal:hover {
+  cursor: pointer;
+  color: #455458;
+}
+

@@ -1,0 +1,208 @@
+/*
+@font-face {
+  font-family: "icons";
+  src: url('/wp-content/themes/conditioning/inc/fonts/icons.eot');
+  src: url('/wp-content/themes/conditioning/inc/fonts/icons.eot?#iefix') format('eot'),
+  url('/wp-content/themes/conditioning/inc/fonts/icons.woff') format('woff'),
+  url('/wp-content/themes/conditioning/inc/fonts/icons.ttf') format('truetype');
+}
+*/
+%icon {
+  font-family: "icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  // speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+  text-decoration: none;
+  text-transform: none;
+}
+
+@function icon-char($filename) {
+  $char: "";
+
+@if $filename == about1 {
+$char: "\E001";
+}
+@if $filename == about2 {
+$char: "\E002";
+}
+@if $filename == about3 {
+$char: "\E003";
+}
+@if $filename == about4 {
+$char: "\E004";
+}
+@if $filename == about5 {
+$char: "\E005";
+}
+@if $filename == about6 {
+$char: "\E006";
+}
+@if $filename == about7 {
+$char: "\E007";
+}
+@if $filename == about8 {
+$char: "\E008";
+}
+@if $filename == arm {
+$char: "\E009";
+}
+@if $filename == clock {
+$char: "\E00A";
+}
+@if $filename == close {
+$char: "\E00B";
+}
+@if $filename == conditioner {
+$char: "\E00C";
+}
+@if $filename == delivery {
+$char: "\E00D";
+}
+@if $filename == marker {
+$char: "\E00E";
+}
+@if $filename == next {
+$char: "\E00F";
+}
+@if $filename == pencil {
+$char: "\E010";
+}
+@if $filename == phone {
+$char: "\E011";
+}
+@if $filename == phone1 {
+$char: "\E012";
+}
+@if $filename == prev {
+$char: "\E013";
+}
+
+@return $char;
+}
+
+@mixin icon($filename, $insert: before) {
+  &:#{$insert} {
+    content: icon-char($filename);
+    @extend %icon;
+  }
+}
+
+.icon-about1 {
+  @include icon(about1);
+}
+.icon-about2 {
+  @include icon(about2);
+}
+.icon-about3 {
+  @include icon(about3);
+}
+.icon-about4 {
+  @include icon(about4);
+}
+.icon-about5 {
+  @include icon(about5);
+}
+.icon-about6 {
+  @include icon(about6);
+}
+.icon-about7 {
+  @include icon(about7);
+}
+.icon-about8 {
+  @include icon(about8);
+}
+.icon-arm {
+  @include icon(arm);
+}
+.icon-clock {
+  @include icon(clock);
+}
+.icon-close {
+  @include icon(close);
+}
+.icon-conditioner {
+  @include icon(conditioner);
+}
+.icon-delivery {
+  @include icon(delivery);
+}
+.icon-marker {
+  @include icon(marker);
+}
+.icon-next {
+  @include icon(next);
+}
+.icon-pencil {
+  @include icon(pencil);
+}
+.icon-phone {
+  @include icon(phone);
+}
+.icon-phone1 {
+  @include icon(phone1);
+}
+.icon-prev {
+  @include icon(prev);
+}
+
+
+.link-icon-about1 > a{
+  @include icon(about1);
+}
+.link-icon-about2 > a{
+  @include icon(about2);
+}
+.link-icon-about3 > a{
+  @include icon(about3);
+}
+.link-icon-about4 > a{
+  @include icon(about4);
+}
+.link-icon-about5 > a{
+  @include icon(about5);
+}
+.link-icon-about6 > a{
+  @include icon(about6);
+}
+.link-icon-about7 > a{
+  @include icon(about7);
+}
+.link-icon-about8 > a{
+  @include icon(about8);
+}
+.link-icon-arm > a{
+  @include icon(arm);
+}
+.link-icon-clock > a{
+  @include icon(clock);
+}
+.link-icon-close > a{
+  @include icon(close);
+}
+.link-icon-conditioner > a{
+  @include icon(conditioner);
+}
+.link-icon-delivery > a{
+  @include icon(delivery);
+}
+.link-icon-marker > a{
+  @include icon(marker);
+}
+.link-icon-next > a{
+  @include icon(next);
+}
+.link-icon-pencil > a{
+  @include icon(pencil);
+}
+.link-icon-phone > a{
+  @include icon(phone);
+}
+.link-icon-phone1 > a{
+  @include icon(phone1);
+}
+.link-icon-prev > a{
+  @include icon(prev);
+}

@@ -1,0 +1,189 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$sprite-catalog1-name: 'sprite-catalog1';
+$sprite-catalog1-x: 0px;
+$sprite-catalog1-y: 0px;
+$sprite-catalog1-offset-x: 0px;
+$sprite-catalog1-offset-y: 0px;
+$sprite-catalog1-width: 224px;
+$sprite-catalog1-height: 66px;
+$sprite-catalog1-total-width: 448px;
+$sprite-catalog1-total-height: 330px;
+$sprite-catalog1-image: '/wp-content/themes/conditioning/inc/img/sprite.png';
+$sprite-catalog1: (0px, 0px, 0px, 0px, 224px, 66px, 448px, 330px, '/wp-content/themes/conditioning/inc/img/sprite.png', 'sprite-catalog1', );
+$sprite-catalog2-name: 'sprite-catalog2';
+$sprite-catalog2-x: 0px;
+$sprite-catalog2-y: 66px;
+$sprite-catalog2-offset-x: 0px;
+$sprite-catalog2-offset-y: -66px;
+$sprite-catalog2-width: 224px;
+$sprite-catalog2-height: 66px;
+$sprite-catalog2-total-width: 448px;
+$sprite-catalog2-total-height: 330px;
+$sprite-catalog2-image: '/wp-content/themes/conditioning/inc/img/sprite.png';
+$sprite-catalog2: (0px, 66px, 0px, -66px, 224px, 66px, 448px, 330px, '/wp-content/themes/conditioning/inc/img/sprite.png', 'sprite-catalog2', );
+$sprite-catalog3-name: 'sprite-catalog3';
+$sprite-catalog3-x: 0px;
+$sprite-catalog3-y: 132px;
+$sprite-catalog3-offset-x: 0px;
+$sprite-catalog3-offset-y: -132px;
+$sprite-catalog3-width: 224px;
+$sprite-catalog3-height: 66px;
+$sprite-catalog3-total-width: 448px;
+$sprite-catalog3-total-height: 330px;
+$sprite-catalog3-image: '/wp-content/themes/conditioning/inc/img/sprite.png';
+$sprite-catalog3: (0px, 132px, 0px, -132px, 224px, 66px, 448px, 330px, '/wp-content/themes/conditioning/inc/img/sprite.png', 'sprite-catalog3', );
+$sprite-catalog4-name: 'sprite-catalog4';
+$sprite-catalog4-x: 224px;
+$sprite-catalog4-y: 0px;
+$sprite-catalog4-offset-x: -224px;
+$sprite-catalog4-offset-y: 0px;
+$sprite-catalog4-width: 224px;
+$sprite-catalog4-height: 66px;
+$sprite-catalog4-total-width: 448px;
+$sprite-catalog4-total-height: 330px;
+$sprite-catalog4-image: '/wp-content/themes/conditioning/inc/img/sprite.png';
+$sprite-catalog4: (224px, 0px, -224px, 0px, 224px, 66px, 448px, 330px, '/wp-content/themes/conditioning/inc/img/sprite.png', 'sprite-catalog4', );
+$sprite-catalog5-name: 'sprite-catalog5';
+$sprite-catalog5-x: 224px;
+$sprite-catalog5-y: 66px;
+$sprite-catalog5-offset-x: -224px;
+$sprite-catalog5-offset-y: -66px;
+$sprite-catalog5-width: 224px;
+$sprite-catalog5-height: 66px;
+$sprite-catalog5-total-width: 448px;
+$sprite-catalog5-total-height: 330px;
+$sprite-catalog5-image: '/wp-content/themes/conditioning/inc/img/sprite.png';
+$sprite-catalog5: (224px, 66px, -224px, -66px, 224px, 66px, 448px, 330px, '/wp-content/themes/conditioning/inc/img/sprite.png', 'sprite-catalog5', );
+$sprite-catalogh1-name: 'sprite-catalogh1';
+$sprite-catalogh1-x: 224px;
+$sprite-catalogh1-y: 132px;
+$sprite-catalogh1-offset-x: -224px;
+$sprite-catalogh1-offset-y: -132px;
+$sprite-catalogh1-width: 224px;
+$sprite-catalogh1-height: 66px;
+$sprite-catalogh1-total-width: 448px;
+$sprite-catalogh1-total-height: 330px;
+$sprite-catalogh1-image: '/wp-content/themes/conditioning/inc/img/sprite.png';
+$sprite-catalogh1: (224px, 132px, -224px, -132px, 224px, 66px, 448px, 330px, '/wp-content/themes/conditioning/inc/img/sprite.png', 'sprite-catalogh1', );
+$sprite-catalogh2-name: 'sprite-catalogh2';
+$sprite-catalogh2-x: 0px;
+$sprite-catalogh2-y: 198px;
+$sprite-catalogh2-offset-x: 0px;
+$sprite-catalogh2-offset-y: -198px;
+$sprite-catalogh2-width: 224px;
+$sprite-catalogh2-height: 66px;
+$sprite-catalogh2-total-width: 448px;
+$sprite-catalogh2-total-height: 330px;
+$sprite-catalogh2-image: '/wp-content/themes/conditioning/inc/img/sprite.png';
+$sprite-catalogh2: (0px, 198px, 0px, -198px, 224px, 66px, 448px, 330px, '/wp-content/themes/conditioning/inc/img/sprite.png', 'sprite-catalogh2', );
+$sprite-catalogh3-name: 'sprite-catalogh3';
+$sprite-catalogh3-x: 224px;
+$sprite-catalogh3-y: 198px;
+$sprite-catalogh3-offset-x: -224px;
+$sprite-catalogh3-offset-y: -198px;
+$sprite-catalogh3-width: 224px;
+$sprite-catalogh3-height: 66px;
+$sprite-catalogh3-total-width: 448px;
+$sprite-catalogh3-total-height: 330px;
+$sprite-catalogh3-image: '/wp-content/themes/conditioning/inc/img/sprite.png';
+$sprite-catalogh3: (224px, 198px, -224px, -198px, 224px, 66px, 448px, 330px, '/wp-content/themes/conditioning/inc/img/sprite.png', 'sprite-catalogh3', );
+$sprite-catalogh4-name: 'sprite-catalogh4';
+$sprite-catalogh4-x: 0px;
+$sprite-catalogh4-y: 264px;
+$sprite-catalogh4-offset-x: 0px;
+$sprite-catalogh4-offset-y: -264px;
+$sprite-catalogh4-width: 224px;
+$sprite-catalogh4-height: 66px;
+$sprite-catalogh4-total-width: 448px;
+$sprite-catalogh4-total-height: 330px;
+$sprite-catalogh4-image: '/wp-content/themes/conditioning/inc/img/sprite.png';
+$sprite-catalogh4: (0px, 264px, 0px, -264px, 224px, 66px, 448px, 330px, '/wp-content/themes/conditioning/inc/img/sprite.png', 'sprite-catalogh4', );
+$sprite-catalogh5-name: 'sprite-catalogh5';
+$sprite-catalogh5-x: 224px;
+$sprite-catalogh5-y: 264px;
+$sprite-catalogh5-offset-x: -224px;
+$sprite-catalogh5-offset-y: -264px;
+$sprite-catalogh5-width: 224px;
+$sprite-catalogh5-height: 66px;
+$sprite-catalogh5-total-width: 448px;
+$sprite-catalogh5-total-height: 330px;
+$sprite-catalogh5-image: '/wp-content/themes/conditioning/inc/img/sprite.png';
+$sprite-catalogh5: (224px, 264px, -224px, -264px, 224px, 66px, 448px, 330px, '/wp-content/themes/conditioning/inc/img/sprite.png', 'sprite-catalogh5', );
+$spritesheet-width: 448px;
+$spritesheet-height: 330px;
+$spritesheet-image: '/wp-content/themes/conditioning/inc/img/sprite.png';
+$spritesheet-sprites: ($sprite-catalog1, $sprite-catalog2, $sprite-catalog3, $sprite-catalog4, $sprite-catalog5, $sprite-catalogh1, $sprite-catalogh2, $sprite-catalogh3, $sprite-catalogh4, $sprite-catalogh5, );
+$spritesheet: (448px, 330px, '/wp-content/themes/conditioning/inc/img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
